@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Phrase Generator</title>
+     <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+      <h1 id = "phrasedisplaytitle">Random Phrase Display</h1>
+       <div id="phrasedisplay">
+    </div>
+    <button id= "btn" onclick="newPhrase('statement', 'animal'); copytext()">Animal Statement</button>
+    <button id= "btn" onclick="newPhrase('question', 'animal'); copytext()">Animal Question</button>
+    <button id= "btn" onclick="newPhrase('statement', 'object'); copytext()">Object Statement</button>
+    <button id= "btn" onclick="newPhrase('question', 'object'); copytext()">Object Question</button>
+    <button id= "btn" onclick="newPhrase('statement', 'being'); copytext()">Profession Statement</button>
+    <button id= "btn" onclick="newPhrase('question', 'being'); copytext()">Profession Question</button>
+    <button id= "btn" onclick="newPhrase('statement', 'famousbeing'); copytext()">Famous Being Statement</button>
+    <button id= "btn" onclick="newPhrase('question', 'famousbeing'); copytext()">Famous Being Question</button>
+    <button id= "btn" onclick="newPhrase('random'); copytext()">Completely Random Phrase</button>
+</body>
+<script src="script.js"></script>
+</html>

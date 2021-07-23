@@ -1,0 +1,37 @@
+body {
+text-align: center;
+padding: 0;
+margin: 0;
+background: linear-gradient(to left, #862566, #15056e);
+}
+
+#phrasedisplaytitle {
+
+    
+color:aqua;
+}
+
+
+
+
+#phrasedisplay {
+background-color: #1a133f;
+border: 5px solid #1a7799;
+height: 275px;
+width: 750px;
+margin: 0 auto;
+text-align: center;
+font-size: 30px;
+color:aqua;
+}
+
+
+#btn {
+margin: 0px auto;
+height: 40px;
+width: 250px;
+font-size: 18px;
+background-color: rgb(55, 140, 255)
+}
+
+
