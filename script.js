@@ -16,7 +16,7 @@ animals2 = animals2 + "s";
 };
 
 
-  var list = ['gatekeeper','doorman','cleric','sorceror','mage','archer','majesty','lord','principal','custodian','traveling merchant','door to door merchant','alien','ascendant being','bodyguard','savior','professor','biologist','botanist','programmer','computer avatar','AI','nanobot','chronicon','cybernetic organism','giant','golem','ogre','troll','hobbit','gnome','dwarf','orc','human','night elf','sentinel','cyborg','android','country music fan','death metal music fan','alternative rock music fan','k pop music fan','pop music fan','classical music fan','rap music fan','rock music fan','drunk','brute','guardian','boyfriend','girlfriend','husband','wife','housewife','olympian', 'idiot', 'moron', 'retard', 'fool', 'lunatic', 'gourmand', 'plumber', 'mechanic', 'farmer', 'gardener', 'cashier', 'janitor', 'knight', 'warrior', 'hero', 'wizard', 'priest', 'pastor', 'barbarian', 'driver', 'cop', 'astronaut', 'artist', 'chef', 'construction worker', 'doctor', 'firefighter', 'teacher', 'dentist', 'receptionist', 'secretary', 'barber', 'hairdresser', 'cleaner', 'biologist', 'scientist', 'mailman', 'pharmacist', 'taxi driver', 'travel guide', 'programmer', 'dancer', 'salesman', 'car salesman', 'lawyer', 'jockey', 'gymnist', 'bodybuilder', 'acrobat', 'athlete', 'prostitute', 'hooker', 'stripper', 'madman', 'pcychopath','engineer','baker','master','slave','coal miner','metal miner','road worker','pilot','woman','lady','man','guy','stalker','clerk','priestess','sorceror','demon','angel','follower','manager','commander','general','leader','eunich','amputee','patient','paramedic','medic','dominatrix','banshee','ghost','succubus','biker','gangster','sissy','panzy','thimbledick','sociopath','narcissist','racist','pacifist','jockey','rancher','addict','junkie','freak','belly dancer','iron miner', 'psychiatrist', 'therapist', 'king','prince','princess'];
+  var list = ['gatekeeper','doorman','cleric','sorceror','mage','archer','majesty','lord','principal','custodian','traveling merchant','door to door merchant','alien','ascendant being','bodyguard','savior','professor','biologist','botanist','programmer','computer avatar','AI','nanobot','chronicon','cybernetic organism','giant','golem','ogre','troll','hobbit','gnome','dwarf','orc','human','night elf','sentinel','cyborg','android','country music fan','death metal music fan','alternative rock music fan','k pop music fan','pop music fan','classical music fan','rap music fan','rock music fan','drunk','brute','guardian','boyfriend','girlfriend','husband','wife','housewife','olympian', 'idiot', 'moron', 'retard', 'fool', 'lunatic', 'gourmand', 'plumber', 'mechanic', 'farmer', 'gardener', 'cashier', 'janitor', 'knight', 'warrior', 'hero', 'wizard', 'priest', 'pastor', 'barbarian', 'driver', 'cop', 'astronaut', 'artist', 'chef', 'construction worker', 'doctor', 'firefighter', 'teacher', 'dentist', 'receptionist', 'secretary', 'barber', 'hairdresser', 'cleaner', 'biologist', 'scientist', 'mailman', 'pharmacist', 'taxi driver', 'travel guide', 'programmer', 'dancer', 'salesman', 'car salesman', 'lawyer', 'jockey', 'gymnist', 'bodybuilder', 'acrobat', 'athlete', 'stripper', 'madman', 'pcychopath','engineer','baker','master','slave','coal miner','metal miner','road worker','pilot','woman','lady','man','guy','stalker','clerk','priestess','sorceror','demon','angel','follower','manager','commander','general','leader','eunich','amputee','patient','paramedic','medic','dominatrix','banshee','ghost','succubus','biker','gangster','sissy','panzy','thimbledick','sociopath','narcissist','racist','pacifist','jockey','rancher','addict','junkie','freak','belly dancer','iron miner', 'psychiatrist', 'therapist', 'king','prince','princess'];
   var profession = list[Math.floor(Math.random() * list.length)];
   var profession2 = list[Math.floor(Math.random() * list.length)];
   var profession3 = list[Math.floor(Math.random() * list.length)];
@@ -167,6 +167,14 @@ if (enjoyancewords[enjoyancewords.length - 2] + enjoyancewords[enjoyancewords.le
   var location3 = list[Math.floor(Math.random() * list.length)];
 
   };
+  for (;locations2 == locations1;){
+  var locations2 = list[Math.floor(Math.random() * list.length)];
+
+  };
+  for (;locations3 == locations1 && locations3 == location2;){
+  var locations3 = list[Math.floor(Math.random() * list.length)];
+
+  };
 
  if (locations1[locations1.length - 2] + locations1[locations1.length - 1] == 'ch' || locations1[locations1.length - 1] == 'x')
 {locations1 = locations1 + "es"} else if (locations1[locations1.length - 1] == 's'){} else {
@@ -218,7 +226,7 @@ locations3 = locations3 + "s";
   var list = ['often', 'rare', 'common', 'uncommon', 'almost never', 'frequent', 'unfrequent', 'occasional', 'golden', 'treasure', 'unbelievable'];
   var occurancerate1 = list[Math.floor(Math.random() * list.length)];
 
-  var list = ['Odin','Director Fury','Agent Colson','Captain America','the Hulk','Iron Man','Superman','Loki','Thor','a Loki warframe','a Baruuk warframe','a Rhino warframe','a Hildryn warframe','a Frost warframe','a Nekros warframe','Amumu','Gnar','Teemo','Lulu','Vayne','Shyvanna','Taliyah','Ahri','Kayle','Morganna','Malphite','Master Yi','Imperius','Diablo','Azmodan','Tyrael','Cayde-6', 'Ikora', 'Zavala', 'Britney Spears', 'Elvis Presley', 'Bruce Campbell', 'Banshee-44', 'Xur', 'the Drifter', 'Lotus', 'Thrall', 'Jaina', 'Jin Raynor', 'Alarak', 'Vorazhun', 'Zeratul', 'Stukov', 'Zagara', 'the Overmind', 'a Banshee warframe','a Mag warframe','an Ember warframe','a Nova warframe','a Titania warframe','a Trinity warframe', 'Samus', 'Link', 'Zelda','Ada-1','Amanda Holliday','Ana Bray','Lord Shaxx','Asher Mir','Benedict 99-40','Brother Vance','Darbi 55-30','Devrim Kay','Dominus Ghaul','Eris Morn','Eva Levante','Executor Hideo','Failsafe','Kadi 55-30', 'Lakshmi-2', 'Mara Sov','Osiris','Petra Venj','Rasputin','Shuro Chi','Sedia','Sloane','Suraya Hawthorne','Tess Everis','Spider','Uldren Sov','Val Cauor','Xol','Ordis','Darvo','Maroo','Teshin','Clem','Cephalon Cy','Cephalon Simaris','Spock','Picard','Kirk','Scotty','Leonard McCoy','Geordi La Forge','Sulu','Tuvok','Chekov','7 of 9','Janeway','a Grineer','a Infested','a Corpus','the Void'];
+  var list = ['a Sith Lord','a Jedi Master','a Sith','a Jedi','Megaman','Indiana Jones','Chewbacca','Mace Windu','Darth Sidious','Darth Maul','Darth Vader','Luke Skywalker','Princess Leia','Han Solo','Obi-Wan Kinobi','Odin','Director Fury','Agent Colson','Captain America','the Hulk','Iron Man','Superman','Loki','Thor','a Loki warframe','a Baruuk warframe','a Rhino warframe','a Hildryn warframe','a Frost warframe','a Nekros warframe','Amumu','Gnar','Teemo','Lulu','Vayne','Shyvanna','Taliyah','Ahri','Kayle','Morganna','Malphite','Master Yi','Imperius','Diablo','Azmodan','Tyrael','Cayde-6', 'Ikora', 'Zavala', 'Britney Spears', 'Elvis Presley', 'Bruce Campbell', 'Banshee-44', 'Xur', 'the Drifter', 'Lotus', 'Thrall', 'Jaina', 'Jin Raynor', 'Alarak', 'Vorazhun', 'Zeratul', 'Stukov', 'Zagara', 'the Overmind', 'a Banshee warframe','a Mag warframe','an Ember warframe','a Nova warframe','a Titania warframe','a Trinity warframe', 'Samus', 'Link', 'Zelda','Ada-1','Amanda Holliday','Ana Bray','Lord Shaxx','Asher Mir','Benedict 99-40','Brother Vance','Darbi 55-30','Devrim Kay','Dominus Ghaul','Eris Morn','Eva Levante','Executor Hideo','Failsafe','Kadi 55-30', 'Mara Sov','Osiris','Petra Venj','Rasputin','Shuro Chi','Sedia','Sloane','Suraya Hawthorne','Tess Everis','Spider','Uldren Sov','Val Cauor','Xol','Ordis','Darvo','Maroo','Teshin','Clem','Cephalon Cy','Cephalon Simaris','Spock','Picard','Kirk','Scotty','Leonard McCoy','Geordi La Forge','Sulu','Tuvok','Chekov','7 of 9','Janeway','a Grineer','a Infested','a Corpus','the Void'];
   var famousname1 = list[Math.floor(Math.random() * list.length)];
   var famousname2 = list[Math.floor(Math.random() * list.length)];
   var famousname3 = list[Math.floor(Math.random() * list.length)];
@@ -243,6 +251,11 @@ locations3 = locations3 + "s";
   var famousweaponname3 = list[Math.floor(Math.random() * list.length)];
 
   };
+  
+  var list = ['soul','friend','savior','hero','adventurer'];
+  var positivenames = list;
+  var list = ['jerk','idiot','moron','imbecile','fool'];
+  var negativenames = list;
   
   if (currentsubject == 'animal') {
     if (referencetype == 'at location') {
@@ -721,6 +734,28 @@ locations3 = locations3 + "s";
       };
     };
   };
+  if (currentsubject == 'personal'){
+    if (referencetype == 'at location') {
+      if (phrasetype == 'statement') {
+        
+      };
+      if (phrasetype == 'question') {
+        
+      };
+
+    };
+
+    if (referencetype == 'entity') {
+      if (phrasetype == 'statement') {
+        
+      };
+      if (phrasetype == 'question') {
+        
+      };
+      
+    };
+
+  };
   if (currentsubject == 'famousbeing'){
     if (referencetype == 'at location') {
       if (phrasetype == 'statement') {
@@ -903,3 +938,4 @@ locations3 = locations3 + "s";
   document.body.removeChild(el);
   document.getElementById('phrasedisplay').innerHTML = resultphrase;
 };
+
