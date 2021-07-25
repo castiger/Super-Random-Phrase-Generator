@@ -471,7 +471,7 @@ function newPhrase(questionorstatement, subjectmatter) {
         var diceroll = Math.floor(Math.random() * 6 + 1);
         switch (diceroll) {
         case 1:
-          var resultphrase = (sentencebeginning + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyancewords + ' to ' + positiveverb + ' at the ' + positiveadjective2 + ' ' + location1 + '!');
+          var resultphrase = (sentencebeginning + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyancewords + ' to ' + positiveverb1 + ' at the ' + positiveadjective2 + ' ' + location1 + '!');
           break;
 
         case 2:
@@ -480,7 +480,7 @@ function newPhrase(questionorstatement, subjectmatter) {
           break;
 
         case 3:
-          var resultphrase = (sentencebeginning + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyancewords + ' to ' + positiveverb + ' with a ' + positiveadjective2 + ' ' + animal2 + ' over at the ' + positiveadjective3 + ' ' + location1 + '!');
+          var resultphrase = (sentencebeginning + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyancewords + ' to ' + positiveverb1 + ' with a ' + positiveadjective2 + ' ' + animal2 + ' over at the ' + positiveadjective3 + ' ' + location1 + '!');
 
           break;
 
@@ -495,7 +495,7 @@ function newPhrase(questionorstatement, subjectmatter) {
           break;
 
         case 6:
-          var resultphrase = (randompercentage1 + ' of ' + positiveadjective1 + ' ' + animals1 + ' ' + enjoyanceword + ' to ' + positiveverb + ' with ' + positiveadjective2 + ' ' + animals2 + ' at the ' + positiveadjective3 + ' ' + location1 + '!');
+          var resultphrase = (randompercentage1 + ' of ' + positiveadjective1 + ' ' + animals1 + ' ' + enjoyanceword + ' to ' + positiveverb1 + ' with ' + positiveadjective2 + ' ' + animals2 + ' at the ' + positiveadjective3 + ' ' + location1 + '!');
 
           break;
         };
@@ -504,7 +504,7 @@ function newPhrase(questionorstatement, subjectmatter) {
         var diceroll = Math.floor(Math.random() * 6 + 1);
         switch (diceroll) {
         case 1:
-          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyanceword + ' to ' + positiveverb + ' at the ' + positiveadjective2 + ' ' + location1 + '?');
+          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyanceword + ' to ' + positiveverb1 + ' at the ' + positiveadjective2 + ' ' + location1 + '?');
           break;
 
         case 2:
@@ -540,7 +540,7 @@ function newPhrase(questionorstatement, subjectmatter) {
         var diceroll = Math.floor(Math.random() * 6 + 1);
         switch (diceroll) {
         case 1:
-          var resultphrase = (sentencebeginning + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyancewords + ' to ' + positiveverb + ' near a ' + positiveadjective2 + ' ' + niceobject1 + '!');
+          var resultphrase = (sentencebeginning + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyancewords + ' to ' + positiveverb1 + ' near a ' + positiveadjective2 + ' ' + niceobject1 + '!');
 
           break;
 
@@ -560,12 +560,12 @@ function newPhrase(questionorstatement, subjectmatter) {
           break;
 
         case 5:
-          var resultphrase = (randomnumber1 + ' out of every ' + randomnumber2 + ' ' + positiveadjective1 + ' ' + animals1 + ' ' + enjoyanceword + ' to ' + positiveverb + ' within ' + randomnumber3 + ' miles of a ' + positiveadjective2 + ' ' + niceobject1 + '!');
+          var resultphrase = (randomnumber1 + ' out of every ' + randomnumber2 + ' ' + positiveadjective1 + ' ' + animals1 + ' ' + enjoyanceword + ' to ' + positiveverb1 + ' within ' + randomnumber3 + ' miles of a ' + positiveadjective2 + ' ' + niceobject1 + '!');
 
           break;
 
         case 6:
-          var resultphrase = (randomnumber1 + ' out of every ' + randomnumber2 + ' ' + positiveadjective1 + ' ' + animals1 + ' ' + enjoyanceword + ' to ' + positiveverb + ' around ' + randomnumber3 + ' ' + niceobjects + '!');
+          var resultphrase = (randomnumber1 + ' out of every ' + randomnumber2 + ' ' + positiveadjective1 + ' ' + animals1 + ' ' + enjoyanceword + ' to ' + positiveverb1 + ' around ' + randomnumber3 + ' ' + niceobjects + '!');
 
           break;
 
@@ -575,7 +575,7 @@ function newPhrase(questionorstatement, subjectmatter) {
         var diceroll = Math.floor(Math.random() * 5 + 1);
         switch (diceroll) {
         case 1:
-          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyanceword + ' to ' + positiveverb + ' near a ' + positiveadjective2 + ' ' + niceobject1 + '?');
+          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + enjoyanceword + ' to ' + positiveverb1 + ' near a ' + positiveadjective2 + ' ' + niceobject1 + '?');
 
           break;
 
@@ -585,17 +585,17 @@ function newPhrase(questionorstatement, subjectmatter) {
           break;
 
         case 3:
-          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + positiveverb + ' around ' + niceobjects + '?');
+          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + positiveverb1 + ' around ' + niceobjects + '?');
 
           break;
 
         case 4:
-          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + positiveverb + ' with ' + positiveadjective2 + ' ' + animals2 + '?');
+          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + positiveverb1 + ' with ' + positiveadjective2 + ' ' + animals2 + '?');
 
           break;
 
         case 5:
-          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + positiveverb + ' near ' + randomnumber1 + ' ' + positiveadjective2 + ' ' + animals2 + '?');
+          var resultphrase = (questionbeginning + ' ' + pointer + ' ' + positiveadjective1 + ' ' + animal + ' ' + positiveverb1 + ' near ' + randomnumber1 + ' ' + positiveadjective2 + ' ' + animals2 + '?');
 
           break;
         };
