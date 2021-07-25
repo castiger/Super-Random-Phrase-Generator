@@ -5,18 +5,23 @@
      <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-      <h1 id = "phrasedisplaytitle">Random Phrase Display</h1>
+      <h1 id = "phrasedisplaytitle">Copies To Clipboard On Click</h1>
        <div id="phrasedisplay">
     </div>
-    <button id= "btn" onclick="newPhrase('statement', 'animal'); copytext()">Animal Statement</button>
-    <button id= "btn" onclick="newPhrase('question', 'animal'); copytext()">Animal Question</button>
-    <button id= "btn" onclick="newPhrase('statement', 'object'); copytext()">Object Statement</button>
-    <button id= "btn" onclick="newPhrase('question', 'object'); copytext()">Object Question</button>
-    <button id= "btn" onclick="newPhrase('statement', 'being'); copytext()">Profession Statement</button>
-    <button id= "btn" onclick="newPhrase('question', 'being'); copytext()">Profession Question</button>
-    <button id= "btn" onclick="newPhrase('statement', 'famousbeing'); copytext()">Famous Being Statement</button>
-    <button id= "btn" onclick="newPhrase('question', 'famousbeing'); copytext()">Famous Being Question</button>
-    <button id= "btn" onclick="newPhrase('random'); copytext()">Completely Random Phrase</button>
+    <button id= "animalbtn" onclick="newPhrase('statement', 'animal'); copytext()">Animal Statement</button>
+    <button id= "animalbtn" onclick="newPhrase('question', 'animal'); copytext()">Animal Question</button>
+    <button id= "objectbtn" onclick="newPhrase('statement', 'object'); copytext()">Object Statement</button>
+    <button id= "objectbtn" onclick="newPhrase('question', 'object'); copytext()">Object Question</button>
+    <button id= "professionbtn" onclick="newPhrase('statement', 'being'); copytext()">Profession Statement</button>
+    <button id= "professionbtn" onclick="newPhrase('question', 'being'); copytext()">Profession Question</button>
+    <button id= "famousbeingbtn" onclick="newPhrase('statement', 'famousbeing'); copytext()">Famous Being Statement</button>
+    <button id= "famousbeingbtn" onclick="newPhrase('question', 'famousbeing'); copytext()">Famous Being Question</button>
+    <button id="personalbtn" onclick="newPhrase('statement', 'personal'); copytext()">Personal Statement</button>
+    <button id="personalbtn" onclick="newPhrase('question', 'personal'); copytext()">Personal Question</button>
+    <button id="complimentbtn" onclick="newPhrase('', 'compliment'); copytext()">Random Compliment</button>
+    <button id="insultbtn" onclick="newPhrase('', 'insult'); copytext()">Random Insult</button>
+    <button id= "randombtn" onclick="newPhrase('random'); copytext()">Completely Random Phrase</button>
+
 </body>
 <script src="script.js"></script>
 </html>
