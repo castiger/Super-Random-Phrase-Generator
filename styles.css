@@ -2,7 +2,7 @@ body {
 text-align: center;
 padding: 0;
 margin: 0;
-background: linear-gradient(to left, #862566, #15056e);
+background: linear-gradient(to right, #411231, #15056e);
 }
 
 #phrasedisplaytitle {
@@ -28,9 +28,9 @@ color:aqua;
 
 #animalbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 26px;
+font-size: 16px;
 color:rgb(0, 255, 0);
 background-color: rgb(2, 75, 0)
 }
@@ -38,62 +38,126 @@ background-color: rgb(2, 75, 0)
 
 #objectbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 26px;
+font-size: 16px;
 color:rgb(0, 255, 255);
 background-color: rgb(0, 20, 197)
 }
 
 #professionbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 24px;
+font-size: 16px;
 color:rgb(0, 102, 255);
 background-color: rgb(0, 17, 53)
 }
 
 #famousbeingbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 20px;
+font-size: 16px;
 color:rgb(255, 208, 0);
 background-color: rgb(90, 69, 0)
 }
 
 #personalbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 20px;
+font-size: 16px;
 color:rgb(255, 81, 168);
 background-color: rgb(83, 0, 58)
 }
 
 #complimentbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 20px;
+font-size: 16px;
 color:rgb(255, 97, 163);
 background-color: rgb(100, 0, 32)
 }
 
 #insultbtn {
 margin: 0px auto;
-height: 40px;
+height: 25px;
 width: 250px;
-font-size: 20px;
+font-size: 16px;
 color:rgb(255, 104, 104);
 background-color: rgb(95, 0, 0)
 }
 
 #randombtn {
+  font-family:arial black;
+  font-size:20px;
+  background-image: 
+    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
+}
+@keyframes move {
+	to {
+		background-position: 500vh;
+	}
+}
+
+
+
+body2{
 margin: 0px auto;
-height: 40px;
-width: 250px;
-font-size: 18px;
-background-color: rgb(0, 12, 29)
+    height: 100px;
+    width: 200px;
+    color: rgb(0, 225, 255);
+}
+
+
+h2{
+border: 1px solid #1a7799;
+margin: 0 auto;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+h3{
+border: 1px solid #1a7799;
+margin: 0 auto;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+h4{
+border: 1px solid #1a7799;
+margin: 0 auto;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+h5{
+border: 1px solid #1a7799;
+margin: 0 auto;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+h6{
+border: 1px solid #1a7799;
+margin: 0 auto;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
 }
