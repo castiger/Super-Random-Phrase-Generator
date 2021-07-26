@@ -2,26 +2,56 @@
 <html>
 <head>
      <title>Phrase Generator</title>
-     <link href="styles.css" rel="stylesheet">
+     <html lang="en">
+     <link rel="stylesheet" href="styles.css">
+     <script src="app.js" defer></script>
+     <script src="https://api.countapi.xyz/hit/castigerphrasegenerator777/visits?callback=liveViews" async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777sentences/sentences?callback=liveSentences"async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777questions/questions?callback=liveQuestions"async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777compliments/compliments?callback=liveCompliments"async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777insults/insults?callback=liveInsults" async></script>
 </head>
 <body>
       <h1 id = "phrasedisplaytitle">Copies To Clipboard On Click</h1>
        <div id="phrasedisplay">
     </div>
-    <button id= "animalbtn" onclick="newPhrase('statement', 'animal'); copytext()">Animal Statement</button>
-    <button id= "animalbtn" onclick="newPhrase('question', 'animal'); copytext()">Animal Question</button>
-    <button id= "objectbtn" onclick="newPhrase('statement', 'object'); copytext()">Object Statement</button>
-    <button id= "objectbtn" onclick="newPhrase('question', 'object'); copytext()">Object Question</button>
-    <button id= "professionbtn" onclick="newPhrase('statement', 'being'); copytext()">Profession Statement</button>
-    <button id= "professionbtn" onclick="newPhrase('question', 'being'); copytext()">Profession Question</button>
-    <button id= "famousbeingbtn" onclick="newPhrase('statement', 'famousbeing'); copytext()">Famous Being Statement</button>
-    <button id= "famousbeingbtn" onclick="newPhrase('question', 'famousbeing'); copytext()">Famous Being Question</button>
-    <button id="personalbtn" onclick="newPhrase('statement', 'personal'); copytext()">Personal Statement</button>
-    <button id="personalbtn" onclick="newPhrase('question', 'personal'); copytext()">Personal Question</button>
-    <button id="complimentbtn" onclick="newPhrase('', 'compliment'); copytext()">Random Compliment</button>
-    <button id="insultbtn" onclick="newPhrase('', 'insult'); copytext()">Random Insult</button>
+    <button id= "animalbtn" onclick="sentencecounter(); newPhrase('statement', 'animal'); copytext()">Animal Statement</button>
+    <button id= "animalbtn" onclick="questioncounter(); newPhrase('question', 'animal'); copytext()">Animal Question</button>
+    <button id= "objectbtn" onclick="sentencecounter(); newPhrase('statement', 'object'); copytext()">Object Statement</button>
+    <button id= "objectbtn" onclick="questioncounter(); newPhrase('question', 'object'); copytext()">Object Question</button>
+    <button id= "professionbtn" onclick="sentencecounter(); newPhrase('statement', 'being'); copytext()">Profession Statement</button>
+    <button id= "professionbtn" onclick="questioncounter(); newPhrase('question', 'being'); copytext()">Profession Question</button>
+    <button id= "famousbeingbtn" onclick="sentencecounter(); newPhrase('statement', 'famousbeing'); copytext()">Famous Being Statement</button>
+    <button id= "famousbeingbtn" onclick="questioncounter(); newPhrase('question', 'famousbeing'); copytext()">Famous Being Question</button>
+    <button id= "personalbtn" onclick="sentencecounter(); newPhrase('statement', 'personal'); copytext()">Personal Statement</button>
+    <button id= "personalbtn" onclick="questioncounter(); newPhrase('question', 'personal'); copytext()">Personal Question</button>
+    <button id= "complimentbtn" onclick="complimentcounter(); newPhrase('', 'compliment'); copytext()">Random Compliment</button>
+    <button id= "insultbtn" onclick="insultcounter(); newPhrase('', 'insult'); copytext()">Random Insult</button>
     <button id= "randombtn" onclick="newPhrase('random'); copytext()">Completely Random Phrase</button>
 
 </body>
+
+<head>
+     <link rel="stylesheet" href="style.css">
+     <script src="app.js" defer></script>
+     <script src="https://api.countapi.xyz/hit/castigerphrasegenerator777/visits?callback=liveViews" async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777sentences/sentences?callback=liveSentences" async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777questions/questions?callback=liveQuestions" async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777compliments/compliments?callback=liveCompliments" async></script>
+     <script src="https://api.countapi.xyz/get/castigerphrasegenerator777insults/insults?callback=liveInsults" async></script>
+</head>
+
+<body2>
+     
+     <h2><span id="visits"></span><span id=Visitors"> Visitors</span></h2>
+     <h3><span id="sentences"></span><span id=Sentences"> Sentences Generated</span></h3>
+     <h4><span id="questions"></span><span id=Questions"> Questions Generated</span></h4>
+     <h5><span id="compliments"></span><span id=Compliments"> Compliments Generated</span></h5>
+     <h6><span id="insults"></span><span id=Insults"> Insults Generated</span></h6>
+   
+
+</body2>
+
+</html>
 <script src="script.js"></script>
 </html>
