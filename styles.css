@@ -96,7 +96,9 @@ background-color: rgb(95, 0, 0)
   background-image: 
     linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   background-clip: text;
-  -webkit-text-fill-color: transparent;  
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    display: inline-block;  
   animation: move 35s linear infinite;
 }
 @keyframes move {
